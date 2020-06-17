@@ -13,10 +13,6 @@ Layout/SpaceBeforeFirstArg:
   Exclude:
     - app/views/api/**/**/*
 
-      Lint/AmbiguousBlockAssociation:
-        Exclude:
-          - spec/**/*
-
 Metrics/BlockLength:
   Exclude:
     - config/**/*
