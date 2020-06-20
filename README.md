@@ -57,6 +57,12 @@ inherit_gem:
     - config/rails_edge.yml
 ```
 
+## Writing custom cops
+
+Check Rubocop's documentation https://docs.rubocop.org/rubocop/development.html
+
+Cops must live inside `lib/rubocop/cop/rootstrap/` and be required in `lib/rubocop/cop/rootstrap.rb`.
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/rootstrap/rubocop-rootstrap. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/rootstrap/rubocop-rootstrap/blob/master/CODE_OF_CONDUCT.md).
