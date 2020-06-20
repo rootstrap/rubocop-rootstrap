@@ -1,8 +1,8 @@
-Style/Documentation:
+Documentation:
   Enabled: false
 
-Layout/SpaceBeforeFirstArg:
-  Exclude:
+Layout/ClassStructure:
+  Enabled: true
 
 Lint/AmbiguousBlockAssociation:
   Exclude:
@@ -16,12 +16,6 @@ Metrics/AbcSize:
 Metrics/BlockLength:
   CountComments: false
   Max: 25
-  Exclude:
-    - '*.gemspec'
-    - config/**/*
-    - spec/**/*
-  ExcludedMethods:
-    - class_methods
 
 Metrics/BlockNesting:
   Max: 4
@@ -32,7 +26,7 @@ Metrics/ClassLength:
 
 # Avoid complex methods.
 Metrics/CyclomaticComplexity:
-  Max: 7
+  Max: 6
 
 Metrics/MethodLength:
   CountComments: false
@@ -42,7 +36,7 @@ Metrics/ModuleLength:
   CountComments: false
   Max: 200
 
-Layout/LineLength:
+Metrics/LineLength:
   Max: 100
   # To make it possible to copy or click on URIs in the code, we allow lines
   # containing a URI to be longer than Max.
@@ -58,27 +52,24 @@ Metrics/ParameterLists:
 Metrics/PerceivedComplexity:
   Max: 12
 
+Style/BlockDelimiters:
+  EnforcedStyle: braces_for_chaining
+
+Style/ExpandPathArguments:
+  Enabled: false
+
 Style/FrozenStringLiteralComment:
-  Enabled: true
+  Enabled: false
 
 Style/ModuleFunction:
   Enabled: false
 
-Style/RescueModifier:
-  Exclude:
-    - spec/**/*
-
-Naming/PredicateName:
-  Enabled: false
-
-Style/HashEachMethods:
+Style/ReturnNil:
   Enabled: true
 
-Style/HashTransformKeys:
-  Enabled: true
-
-Style/HashTransformValues:
-  Enabled: true
+#
+# New cops that are not configured by default
+#
 
 Layout/EmptyLinesAroundAttributeAccessor:
   Enabled: true
