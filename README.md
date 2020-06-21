@@ -37,6 +37,26 @@ inherit_gem:
     - config/default.yml
 ```
 
+### Using the latest Rubocop version
+
+To use the latest version of Rubocop just use the edge config files:
+
+In your .rubocop.yml
+
+```yml
+inherit_gem:
+  rubocop-rootstrap:
+    - config/default_edge.yml
+```
+
+Or for Rails apps
+
+```yml
+inherit_gem:
+  rubocop-rootstrap:
+    - config/rails_edge.yml
+```
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/rootstrap/rubocop-rootstrap. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/rootstrap/rubocop-rootstrap/blob/master/CODE_OF_CONDUCT.md).
