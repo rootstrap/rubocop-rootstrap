@@ -1,29 +1,5 @@
 require: rubocop-rails
 
-inherit_from: default.yml
-
-Rails:
-  Enabled: true
-
-AllCops:
-  Exclude:
-    - db/schema.rb
-
-Layout/SpaceBeforeFirstArg:
-  Exclude:
-    - app/views/api/**/**/*
-
-Metrics/BlockLength:
-  Exclude:
-    - config/**/*
-    - spec/**/*
-    - app/admin/**/*
-
-Rails/Delegate:
-  Enabled: true
-
-Rails/FilePath:
-  Enabled: false
-
-Rails/SaveBang:
-  Enabled: true
+inherit_from:
+  - default.yml
+  - base_rails.yml
