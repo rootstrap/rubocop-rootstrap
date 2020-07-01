@@ -1,3 +1,7 @@
+AllCops:
+  Exclude:
+    - node_modules/**/*
+
 Documentation:
   Enabled: false
 
