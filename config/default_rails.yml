@@ -1,0 +1,26 @@
+Rails:
+  Enabled: true
+
+AllCops:
+  Exclude:
+    - db/schema.rb
+    - node_modules/**/*
+
+Layout/SpaceBeforeFirstArg:
+  Exclude:
+    - app/views/api/**/**/*
+
+Metrics/BlockLength:
+  Exclude:
+    - config/**/*
+    - spec/**/*
+    - app/admin/**/*
+
+Rails/Delegate:
+  Enabled: true
+
+Rails/FilePath:
+  Enabled: false
+
+Rails/SaveBang:
+  Enabled: true

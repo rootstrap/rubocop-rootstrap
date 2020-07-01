@@ -1,3 +1,5 @@
 require: rubocop-rails
 
-inherit_from: default_edge.yml
+inherit_from:
+  - default_edge.yml
+  - default_rails.yml
