@@ -57,6 +57,18 @@ inherit_gem:
     - config/rails_edge.yml
 ```
 
+### Defining custom exclusions in our project
+
+To define custom exclusions and not override those defined by the gem:
+
+In your .rubocop.yml
+
+```yml
+inherit_mode:
+  merge:
+    - Exclude
+```
+
 ## Writing custom cops
 
 Check Rubocop's documentation https://docs.rubocop.org/rubocop/development.html
