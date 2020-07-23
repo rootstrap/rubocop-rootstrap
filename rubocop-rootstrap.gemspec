@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   #
   # 0.72 removed rubocop-rails from the main rubocop project
   #
-  spec.add_runtime_dependency 'rubocop', '~> 0.72'
+  spec.add_runtime_dependency 'rubocop', ['>= 0.72', '<= 0.85']
 
   spec.add_development_dependency 'rake', '~> 13.0.1'
   spec.add_development_dependency 'rspec', '~> 3.9.0'
