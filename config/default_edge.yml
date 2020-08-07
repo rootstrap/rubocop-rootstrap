@@ -1,31 +1,118 @@
 inherit_from: default.yml
 
+Layout/ClassStructure:
+  Enabled: true
+
 Layout/EmptyLinesAroundAttributeAccessor:
   Enabled: true
 
 Layout/SpaceAroundMethodCallOperator:
   Enabled: true
 
+Lint/BinaryOperatorWithIdenticalOperands:
+  Enabled: false
+
 Lint/DeprecatedOpenSSLConstant:
+  Enabled: false
+
+Lint/DuplicateElsifCondition:
+  Enabled: true
+
+Lint/DuplicateRescueException:
+  Enabled: true
+
+Lint/EmptyConditionalBody:
+  Enabled: true
+
+Lint/FloatComparison:
+  Enabled: true
+
+Lint/MissingSuper:
   Enabled: true
 
 Lint/MixedRegexpCaptureTypes:
   Enabled: true
 
+Lint/OutOfRangeRegexpRef:
+  Enabled: true
+
 Lint/RaiseException:
+  Enabled: false
+
+Lint/SelfAssignment:
   Enabled: true
 
 Lint/StructNewOverride:
   Enabled: true
 
+Lint/TopLevelReturnWithArgument:
+  Enabled: true
+
+Lint/UnreachableLoop:
+  Enabled: true
+
+Style/AccessorGrouping:
+  Enabled: true
+  EnforcedStyle: grouped
+
+Style/ArrayCoercion:
+  Enabled: true
+
+Style/BisectedAttrAccessor:
+  Enabled: true
+
+Style/CaseLikeIf:
+  Enabled: true
+
+Style/ExplicitBlockArgument:
+  Enabled: true
+
 Style/ExponentialNotation:
+  Enabled: true
+  EnforcedStyle: scientific
+
+Style/GlobalStdStream:
+  Enabled: false
+
+Style/HashAsLastArrayItem:
+  Enabled: true
+
+Style/HashLikeCase:
+  Enabled: true 
+  MinBranchesCount: 4
+
+Style/HashEachMethods:
+  Enabled: false
+
+Style/HashTransformKeys:
+  Enabled: false
+
+Style/HashTransformValues:
+  Enabled: false
+
+Style/OptionalBooleanParameter:
+  Enabled: true
+
+Style/RedundantAssignment:
+  Enabled: true
+
+Style/RedundantFetchBlock:
+  Enabled: false
+
+Style/RedundantFileExtensionInRequire:
   Enabled: false
 
 Style/RedundantRegexpCharacterClass:
-  Enabled: true
-
-Style/RedundantRegexpEscape:
   Enabled: false
 
+Style/RedundantRegexpEscape:
+  Enabled: true
+
+Style/SingleArgumentDig:
+  Enabled: true
+
 Style/SlicingWithRange:
+  Enabled: false
+
+Style/StringConcatenation:
   Enabled: false

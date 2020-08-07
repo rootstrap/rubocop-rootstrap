@@ -1,8 +1,11 @@
-Documentation:
-  Enabled: false
-
-Layout/ClassStructure:
-  Enabled: true
+Layout/LineLength:
+  Max: 100
+  # To make it possible to copy or click on URIs in the code, we allow lines
+  # containing a URI to be longer than Max.
+  AllowURI: true
+  URISchemes:
+    - http
+    - https
 
 Lint/AmbiguousBlockAssociation:
   Exclude:
@@ -36,15 +39,6 @@ Metrics/ModuleLength:
   CountComments: false
   Max: 200
 
-Metrics/LineLength:
-  Max: 100
-  # To make it possible to copy or click on URIs in the code, we allow lines
-  # containing a URI to be longer than Max.
-  AllowURI: true
-  URISchemes:
-    - http
-    - https
-
 Metrics/ParameterLists:
   Max: 5
   CountKeywordArgs: true
@@ -54,6 +48,9 @@ Metrics/PerceivedComplexity:
 
 Style/BlockDelimiters:
   EnforcedStyle: braces_for_chaining
+
+Style/Documentation:
+  Enabled: false
 
 Style/ExpandPathArguments:
   Enabled: false
