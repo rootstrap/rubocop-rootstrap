@@ -1,9 +1,3 @@
-Layout/ClassStructure:
-  Enabled: true
-
-Layout/EmptyLinesAroundAttributeAccessor:
-  Enabled: true
-
 Layout/LineLength:
   Max: 100
   # To make it possible to copy or click on URIs in the code, we allow lines
@@ -12,51 +6,6 @@ Layout/LineLength:
   URISchemes:
     - http
     - https
-
-Lint/BinaryOperatorWithIdenticalOperands:
-  Enabled: false
-
-Lint/DeprecatedOpenSSLConstant:
-  Enabled: false
-
-Lint/DuplicateElsifCondition:
-  Enabled: true
-
-Lint/DuplicateRescueException:
-  Enabled: true
-
-Lint/EmptyConditionalBody:
-  Enabled: true
-
-Lint/FloatComparison:
-  Enabled: true
-
-Lint/MissingSuper:
-  Enabled: true
-
-Lint/MixedRegexpCaptureTypes:
-  Enabled: true
-
-Lint/OutOfRangeRegexpRef:
-  Enabled: true
-
-Lint/RaiseException:
-  Enabled: false
-
-Lint/SelfAssignment:
-  Enabled: true
-
-Lint/StructNewOverride:
-  Enabled: false
-
-Layout/SpaceAroundMethodCallOperator:
-  Enabled: true
-
-Lint/TopLevelReturnWithArgument:
-  Enabled: true
-
-Lint/UnreachableLoop:
-  Enabled: true
 
 Lint/AmbiguousBlockAssociation:
   Exclude:
@@ -97,21 +46,8 @@ Metrics/ParameterLists:
 Metrics/PerceivedComplexity:
   Max: 12
 
-Style/AccessorGrouping:
-  Enabled: true
-  EnforcedStyle: grouped
-
-Style/ArrayCoercion:
-  Enabled: true
-
-Style/BisectedAttrAccessor:
-  Enabled: true
-
 Style/BlockDelimiters:
   EnforcedStyle: braces_for_chaining
-  
-Style/CaseLikeIf:
-  Enabled: true
 
 Style/Documentation:
   Enabled: false
@@ -119,64 +55,11 @@ Style/Documentation:
 Style/ExpandPathArguments:
   Enabled: false
 
-Style/ExplicitBlockArgument:
-  Enabled: true
-
-Style/ExponentialNotation:
-  Enabled: true
-  EnforcedStyle: scientific
-
 Style/FrozenStringLiteralComment:
-  Enabled: false
-  
-Style/GlobalStdStream:
-  Enabled: false
-
-Style/HashAsLastArrayItem:
-  Enabled: true
-
-Style/HashLikeCase:
-  Enabled: true 
-  MinBranchesCount: 4
-
-Style/HashEachMethods:
-  Enabled: false
-
-Style/HashTransformKeys:
-  Enabled: false
-
-Style/HashTransformValues:
   Enabled: false
 
 Style/ModuleFunction:
   Enabled: false
-  
-Style/OptionalBooleanParameter:
-  Enabled: true
-
-Style/RedundantAssignment:
-  Enabled: true
-
-Style/RedundantFetchBlock:
-  Enabled: false
-
-Style/RedundantFileExtensionInRequire:
-  Enabled: false
-
-Style/RedundantRegexpCharacterClass:
-  Enabled: false
-
-Style/RedundantRegexpEscape:
-  Enabled: true
 
 Style/ReturnNil:
   Enabled: true
-  
-Style/SingleArgumentDig:
-  Enabled: true
-
-Style/SlicingWithRange:
-  Enabled: false
-
-Style/StringConcatenation:
-  Enabled: false
