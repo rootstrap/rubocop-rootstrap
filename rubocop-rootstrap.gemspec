@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = 'rubocop-rootstrap'
-  spec.version       = '0.1.2'
+  spec.version       = '1.0'
   spec.authors       = ['Rootstrap']
   spec.email         = ['info@rootstrap.com']
 
