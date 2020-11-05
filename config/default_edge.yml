@@ -1,5 +1,8 @@
 inherit_from: default.yml
 
+AllCops:
+  NewCops: enable
+
 Layout/ClassStructure:
   Enabled: true
 
