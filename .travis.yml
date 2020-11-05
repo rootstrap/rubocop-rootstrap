@@ -21,8 +21,9 @@ before_script:
   - ./cc-test-reporter before-build
 
 script:
-  - bundle exec rake code_analysis
-  - bundle exec rspec
+  # # When adding a new cop, uncomment the lines below to analyze/test in the CI
+  # - bundle exec rake code_analysis
+  # - bundle exec rspec
 
 after_script:
   - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
