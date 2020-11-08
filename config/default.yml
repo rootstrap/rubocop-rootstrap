@@ -15,10 +15,14 @@ Metrics/AbcSize:
   # The ABC size is a calculated magnitude, so this number can be an Integer or
   # a Float.
   Max: 15
+  Exclude:
+    - db/migrate/**/*
 
 Metrics/BlockLength:
   CountComments: false
   Max: 25
+  Exclude:
+    - spec/**/*
 
 Metrics/BlockNesting:
   Max: 4
