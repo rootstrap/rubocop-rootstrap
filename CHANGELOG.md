@@ -1,11 +1,14 @@
 # master
 
 ### New Features
-* Exclude Metrics/BlockLength cop for specs
-* Exclude Metrics/AbcSize cop for migrations
-
 ### Bug Fixes
 ### Changes
+
+# 1.1
+
+### New Features
+* Exclude Metrics/BlockLength cop for specs
+* Exclude Metrics/AbcSize cop for migrations
 
 # 1.0
 
