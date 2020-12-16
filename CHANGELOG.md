@@ -4,6 +4,11 @@
 ### Bug Fixes
 ### Changes
 
+# 1.2
+
+### Changes
+* rubocop-rootstrap now works with all v1 releases
+
 # 1.1
 
 ### New Features

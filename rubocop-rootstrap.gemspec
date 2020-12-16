@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = 'rubocop-rootstrap'
-  spec.version       = '1.1'
+  spec.version       = '1.2'
   spec.authors       = ['Rootstrap']
   spec.email         = ['info@rootstrap.com']
 
@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
   #
   # 0.72 removed rubocop-rails from the main rubocop project
   #
-  spec.add_runtime_dependency 'rubocop', ['>= 0.72', '<= 1.2']
+  spec.add_runtime_dependency 'rubocop', ['>= 0.72', '< 2']
 
   spec.add_development_dependency 'rake', '~> 13.0.1'
   spec.add_development_dependency 'rspec', '~> 3.9.0'
