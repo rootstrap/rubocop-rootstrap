@@ -59,9 +59,6 @@ Style/Documentation:
 Style/ExpandPathArguments:
   Enabled: false
 
-Style/FrozenStringLiteralComment:
-  Enabled: true
-
 Style/ModuleFunction:
   Enabled: false
 
