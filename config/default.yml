@@ -60,7 +60,7 @@ Style/ExpandPathArguments:
   Enabled: false
 
 Style/FrozenStringLiteralComment:
-  Enabled: false
+  Enabled: true
 
 Style/ModuleFunction:
   Enabled: false
